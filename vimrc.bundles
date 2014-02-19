@@ -1,0 +1,14 @@
+set nocompatible
+filetype off
+
+" Vundle setup
+set rtp+=~/dotfiles/vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'tpope/vim-fugitive.git'
+Bundle 'tpope/vim-sensible.git'
+Bundle 'tpope/vim-markdown.git'
+Bundle 'scrooloose/nerdtree.git'
+
+" Colorschemes
+Bundle 'altercation/vim-colors-solarized.git'
