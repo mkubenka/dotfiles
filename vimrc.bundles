@@ -2,7 +2,7 @@ set nocompatible
 filetype off
 
 " Vundle setup
-set rtp+=~/dotfiles/vim/bundle/vundle/
+set rtp+=~/.dotfiles/vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'tpope/vim-fugitive.git'

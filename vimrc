@@ -1,4 +1,4 @@
-source ~/dotfiles/vimrc.bundles
+source ~/.dotfiles/vimrc.bundles
 
 set history=5000
 
