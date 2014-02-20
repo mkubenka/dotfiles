@@ -5,6 +5,9 @@ filetype off
 set rtp+=~/.dotfiles/vim/bundle/vundle/
 call vundle#rc()
 
+" let Vundle manage Vundle, required
+Bundle 'gmarik/vundle'
+
 Bundle 'tpope/vim-fugitive.git'
 Bundle 'tpope/vim-sensible.git'
 Bundle 'tpope/vim-markdown.git'
@@ -12,3 +15,5 @@ Bundle 'scrooloose/nerdtree.git'
 
 " Colorschemes
 Bundle 'altercation/vim-colors-solarized.git'
+
+filetype plugin indent on
