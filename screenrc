@@ -1,2 +1,5 @@
+defscrollback 30000
+
+backtick 1 60 60 /bin/hostname -f
 hardstatus alwayslastline
-hardstatus string '%{= kG}%-Lw%{= kW}%50> %n*%f %t%{= kG}%+Lw%< %{= kG}%-=%D %m/%d/%y | %C:%s %A | %1`%{-}'
+hardstatus string '%{= kG}[ %{G}%1` %{g}][%{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d-%m %{W}%c %{g}]'
