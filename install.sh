@@ -34,6 +34,10 @@ fi
 # lnif $dotfiles/bashrc $HOME/.bashrc
 # lnif $dotfiles/bash $HOME/.bash
 
+# screen
+echo "Setting up screen...\n"
+lnif $dotfiles/screenrc $HOME/.screenrc
+
 # vim
 echo "Setting up vim...\n"
 lnif $dotfiles/vimrc $HOME/.vimrc
