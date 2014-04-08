@@ -51,7 +51,7 @@ fi
 
 if [ ! -e $dotfiles/vim/bundle/vundle ]; then
   echo "Installing vundle"
-  git clone http://github.com/gmarik/vundle.git $dotfiles/vim/bundle/vundle
+  git clone https://github.com/gmarik/vundle.git $dotfiles/vim/bundle/vundle
 fi
 
 echo "Update/Install plugins using vundle"
